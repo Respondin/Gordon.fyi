@@ -14,13 +14,14 @@ button {
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
+  padding: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px 30%;
 }
 
 .logo {
@@ -61,11 +62,43 @@ body {
   background-color: rgb(26, 26, 26);
 }
 #p1 {
-  color: white;
+  color: #edf0f1;
+  border: none;
+  display: flex;
+  justify-content: left;
+  padding: 10px 600px;
 }
 #p2 {
   color: rgb(179, 179, 179);
+  border: none;
+  display: flex;
+  justify-content: left;
+  padding: 0px 600px;
 }
 #p3 {
-  color: white;
+  color: #edf0f1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  justify-content: left;
+  padding: 35px 600px;
+}
+#p4 {
+  color: #edf0f1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  justify-content: left;
+  padding: 0px 600px;
+}
+#p5 {
+  color: #edf0f1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  justify-content: left;
+  padding: 35px 600px;
 }
