@@ -39,7 +39,7 @@
   animation-timing-function: ease-in;
 }
 
-/* Code to Website */
+/* Navigation Bar Header */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -98,6 +98,26 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
+/* Black Button */
+.btn {
+  font-size: smaller;
+  padding: 4px 6px;
+  background-color: #3c3939;
+  color: #edf0f1;
+  cursor: pointer;
+  border-radius: 0;
+  display: inline-block;
+  margin: 1px;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(5px);
+  background-color: #3c3939;
+  color: #0abab5;
+}
+
+/* Code to Website */
 body {
   background-color: rgb(26, 26, 26);
 }
@@ -145,7 +165,7 @@ body {
   border: none;
   display: flex;
   justify-content: left;
-  padding: 35px 600px;
+  padding: 5px 600px;
 }
 
 #list {
@@ -154,4 +174,19 @@ body {
   font-size: 16px;
   border: none;
   padding: 0px 617px;
+}
+
+/* Footer */
+.footer1 {
+  padding: 6px 600px;
+}
+
+#p6 {
+  color: #edf0f1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border: none;
+  display: inline-block;
+  justify-content: left;
+  padding: 0px 600px;
 }
